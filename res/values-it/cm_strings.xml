@@ -223,7 +223,7 @@
     <string name="sunlight_enhancement_summary">Migliora la luminosità e la leggibilità del display sotto la luce diretta del sole</string>
 
     <!-- Color enhancement settings screen -->
-    <string name="color_enhancement_title">Miglioramento del</string>
+    <string name="color_enhancement_title">Miglioramento del colore</string>
     <string name="color_enhancement_summary">Migliora dinamicamente il colore del display</string>
 
     <string name="app_security_title">Sicurezza app</string>
