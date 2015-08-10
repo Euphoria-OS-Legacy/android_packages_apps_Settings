@@ -348,7 +348,7 @@
     <string name="navigation_ring_title_eos">Targets and layout</string>
 
     <!-- AOKP custom system animations -->
-    <string name="animation_title">Animations</string>  
+    <string name="animation_title">Animations</string>
     <string name="system_animation_title">System</string>
     <string name="activity_open_title">Activity open</string>
     <string name="activity_close_title">Activity close</string>
@@ -518,5 +518,9 @@
     <string name="status_bar_temperature_hidden">Hidden</string>
     <string name="status_bar_temperature_show_scale">Scale showing</string>
     <string name="status_bar_temperature_hide_scale">Scale hidden</string>
+
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">Three finger gesture</string>
+    <string name="three_finger_gesture_summary">Swipe three finger to screenshot</string>
 
 </resources>
