@@ -50,8 +50,14 @@ public class PrivacySettings extends SettingsPreferenceFragment implements Index
         // Add package manager to check if features are available
         PackageManager pm = getPackageManager();
 
+        boolean isOwner = Utils.isUserOwner();
+        if (!isOwner) {
+            PreferenceScreen root = getPreferenceScreen();
+            root.removePreference(findPreference(KEY_STATS));
+        }
+
         // Determine options based on device telephony support
-        if (!pm.hasSystemFeature(PackageManager.FEATURE_TELEPHONY)) {
+        if (!pm.hasSystemFeature(PackageManager.FEATURE_TELEPHONY) || !isOwner) {
             // No telephony, remove dependent options
             PreferenceScreen root = getPreferenceScreen();
             root.removePreference(mBlacklist);
