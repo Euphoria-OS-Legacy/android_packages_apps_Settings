@@ -206,6 +206,7 @@
 
     <!-- Lockscreen weather -->
     <string name="lock_screen_weather_settings_title">Погода</string>
+    <string name="weather_cat_notifications_title">Уведомления</string>
     <string name="weather_show_weather_title">Показывать погоду</string>
     <string name="weather_show_weather_summary">Включить показ погоды</string>
     <string name="weather_show_location_title">Показывать местоположение</string>
@@ -221,6 +222,15 @@
     <string name="position_right_title">Справа</string>
     <string name="position_centered_title">По центру</string>
     <string name="hidden_title">Скрыты</string>
+    <string name="weather_hide_panel_title">Скрывать погоду</string>
+    <string name="weather_hide_panel_dlg_title">Выберите, когда погода будет скрываться</string>
+    <string name="weather_hide_panel_auto_title">Авто</string>
+    <string name="weather_hide_panel_custom_title">Настроить</string>
+    <string name="weather_hide_panel_never_title">Никогда</string>
+    <string name="weather_hide_panel_auto_summary">Погода будет скрыта, когда количество видимых уведомлений достигнет максимально допустимого значения</string>
+    <string name="weather_hide_panel_custom_summary">Погода будет скрыта, когда количество видимых уведомлений достигнет (%s)</string>
+    <string name="weather_hide_panel_never_summary">Погода не будет скрываться</string>
+    <string name="weather_number_of_notifications_title">Количество уведомлений</string>
 
     <!-- Recents panel -->
     <string name="recents_panel_category">Недавние приложения</string>
@@ -309,6 +319,9 @@
     <string name="heads_up_time_out_8sec">8 секунд</string>
     <string name="heads_up_time_out_10sec">10 секунд</string>
     <string name="heads_up_time_out_never">Никогда</string>
+     
+    <!-- Heads up snooze -->
+    <string name="heads_up_snooze_title">Длительность \"отложить\"</string>
 
     <!-- Superuser indicator-->
     <string name="su_indicator">Индикатор суперпользователя</string>
@@ -528,6 +541,7 @@
     <string name="double_tap_sleep_anywhere_summary">Дважды нажмите на экран в любом месте чтобы заблокировать устройство</string>
     <string name="enable_task_manager_title">Диспетчер задач</string>
     <string name="enable_task_manager_summary">Показывать диспетчер задач в открытой панели уведомлений</string>
+    <string name="torch_category">Фонарик</string>
     <string name="disable_torch_screen_off_title">Отключать фонарик при выключенном экране</string>
     <string name="disable_torch_screen_off_delay_title">Задержка</string>
     <string name="torch_screen_off_one_second">1 секунда</string>
@@ -538,4 +552,107 @@
     <string name="torch_screen_off_ten_minutes">10 минут</string>
     <string name="mod_version_eos">Версия Euphoria</string>
     <string name="processor_info">Процессор</string>
+    <string name="longpress_lock_icon_torch_title">Долгое нажатие на значок блокировки включает фонарик</string>
+    <string name="longpress_lock_icon_torch_summary">Эта функция не будет работать при одновременно включенных Smart Lock и \"Предотвращение случайных нажатий\"</string>
+
+    <!-- Lockscreen wallpaper -->
+    <string name="lockscreen_wallpaper_title">Обои</string>
+    <string name="lockscreen_wallpaper_summary">Установить обои экрана блокировки</string>
+    <string name="lockscreen_wallpaper_set_title">Установить обои экрана блокировки</string>
+    <string name="lockscreen_wallpaper_clear_title">Очистить обои экрана блокировки</string>
+    <string name="reset_lockscreen_wallpaper">Сбросить обои</string>
+
+    <!-- Screenshot delay -->
+    <string name="powermenu_screenshot_delay_title">Задержка скриншота</string>
+
+    <!-- Screenshot sound -->
+    <string name="screenshot_sound_title">Звук скриншота</string>
+    <string name="screenshot_sound_summary">Звук при скриншоте</string>
+
+    <!-- Status bar temperature -->
+    <string name="status_bar_temperature_title">Температура в статусбаре</string>
+    <string name="status_bar_temperature_hidden">Скрыто</string>
+    <string name="status_bar_temperature_show_scale">Показано с обозначением</string>
+    <string name="status_bar_temperature_hide_scale">Показано без обозначения</string>
+    <string name="status_bar_temperature_location_title">Расположение</string>
+    <string name="status_bar_temperature_location_summary">Выбрать расположение погоды</string>
+    <string name="status_bar_temperature_location_right">Справа</string>
+    <string name="status_bar_temperature_location_left">Слева</string>
+
+    <!--Time Contexual Header -->
+    <string name="notification_title">Панель уведомлений</string>
+    <string name="status_bar_custom_header_title">Картинка в заголовке</string>
+    <string name="status_bar_custom_header_summary">Включить картинку в заголовке</string>
+
+    <!-- Headphones icon switch -->
+    <string name="show_headset_icon_title">Иконка наушников</string>
+    <string name="show_headset_icon_summary">Отображать иконку при подключенных наушниках</string>
+
+    <!-- Scrolling Cache -->
+    <string name="pref_scrollingcache_title">Кэш скролинга</string>
+    <string name="pref_scrollingcache_summary">Может улучшить плавность за счет потребления памяти</string>
+    <string name="pref_scrollingcache_force_enable">Принудительно включен</string>
+    <string name="pref_scrollingcache_default_enable">По умолчанию включен</string>
+    <string name="pref_scrollingcache_default_disable">По умолчанию выключен</string>
+    <string name="pref_scrollingcache_force_disable">Принудительно выключен</string>
+
+    <!-- SlimDim -->
+    <string name="dim_nav_buttons_category">SlimDim</string>
+    <string name="dim_nav_buttons_title">Затемнять кнопки при неактивности</string>
+    <string name="dim_nav_buttons_summary">Затемнять кнопки после некоторого времени неактивности</string>
+    <string name="dim_nav_buttons_timeout_title">Таймаут затемнения</string>
+    <string name="dim_nav_buttons_timeout_summary">Время (секунды) прежде чем затемнить кнопки</string>
+    <string name="dim_nav_buttons_alpha_title">Прозрачность</string>
+    <string name="dim_nav_buttons_alpha_summary">Значение прозрачности при затемнении</string>
+    <string name="dim_nav_buttons_animate_title">Анимация взаимодействии</string>
+    <string name="dim_nav_buttons_animate_summary">Анимация прозрачности</string>
+    <string name="dim_nav_buttons_animate_duration_title">Длительность анимации</string>
+    <string name="dim_nav_buttons_animate_duration_summary">Длительность (секунды) анимации</string>
+    <string name="dim_nav_buttons_touch_anywhere_title">Следить за касаниями на всем экране</string>
+    <string name="dim_nav_buttons_touch_anywhere_summary_on">Касание в любом месте на экране не даст потухнуть кнопкам</string>
+    <string name="dim_nav_buttons_touch_anywhere_summary_off">Только касание навбара не даст потухнуть кнопкам</string>
+
+    <!-- App sidebar -->
+    <string name="app_sidebar_title">Боковая панель приложений</string>
+    <string name="app_sidebar_enable_title">Включить панель приложений</string>
+    <string name="app_sidebar_enable_summaryOn">Панель приложений включена</string>
+    <string name="app_sidebar_enable_summaryOff">Панель приложений выключена</string>
+    <string name="app_sidebar_setup_items_title">Настройка содержания панели</string>
+    <string name="app_sidebar_setup_items_summary">Добавление, удаление и расположение элементов в панели приложений</string>
+    <string name="app_sidebar_transparency_title">Прозрачность панели</string>
+    <string name="app_sidebar_transparency_summary">Регулировка уровня прозрачности панели приложений</string>
+    <string name="app_sidebar_position_title">Расположение панели</string>
+    <string name="app_sidebar_position_summary">Расположение панели приложений на левой или правой стороне экрана</string>
+    <string name="app_sidebar_position_left">Слева</string>
+    <string name="app_sidebar_position_right">Справа</string>
+    <string name="app_sidebar_hide_labels_title">Скрыть названия иконок</string>
+    <string name="app_sidebar_hide_labels_summary">Скрывать названия иконок в панели приложений</string>
+    <string name="tab_category">Видимая вкладка</string>
+    <string name="use_tab_title">Отображение вкладки</string>
+    <string name="use_tab_summary">Показывать видимую вкладку на стороне экрана, в которой будет отображаться панель приложений при прикосновении</string>
+    <string name="tab_position_title">Расположение вкладки</string>
+    <string name="tab_position_summary">Отображение вкладки в верхней, средней или нижней части экрана</string>
+    <string name="tab_size_title">Размер вкладки</string>
+    <string name="tab_size_summary">Изменение размера видимой вкладки</string>
+    <string name="trigger_category">Область вызова</string>
+    <string name="trigger_width_title">Ширина области вызова</string>
+    <string name="trigger_width_summary">Установите ширину области вызова</string>
+    <string name="trigger_top_title">Позиция области вызова</string>
+    <string name="trigger_top_summary">Установите вертикальное расположение области вызова</string>
+    <string name="trigger_bottom_title">Высота области вызова</string>
+    <string name="trigger_bottom_summary">Установите высоту области вызова</string>
+
+    <!-- Change Log -->
+    <string name="changelog_title">Список изменений</string>
+    <string name="changelog_title_summary">Показать список последних изменений в прошивке</string>
+    <string name="changelog_error">Не удалось загрузить список изменений</string>
+
+    <!-- Device policy override -->
+    <string name="device_policy_override_title">Перезаписывать политику устройства</string>
+    <string name="device_policy_override_summary">Разрешать приложениям устанавливать защищенный экран блокировки и перезаписывать настройки профилей</string>
+    
+    <!-- Lockscreen blur/see through -->
+    <string name="lockscreen_see_through_title">Размытие на экране блокировки</string>
+    <string name="lockscreen_see_through_summary">Размывает и отображает контент позади экрана блокировки</string>
+    <string name="lockscreen_blur_radius">Интенсивность эффекта</string>
 </resources>
